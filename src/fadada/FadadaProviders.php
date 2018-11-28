@@ -20,7 +20,7 @@ class FadadaServiceProvider extends ServiceProvider
     public function boot()
     {
         //publish config file
-        $this->publishes([__DIR__.'/../config/fadada.php' => config_path('fadada.php'),'config']);
+        $this->publishes([__DIR__.'/config/fadada.php' => config_path('fadada.php'),'config']);
     }
 
     /**
@@ -31,6 +31,6 @@ class FadadaServiceProvider extends ServiceProvider
     public function register()
     {
         // merge configs
-        $this->mergeConfigFrom(__DIR__.'/../config/fadada.php','fadada');
+        $this->mergeConfigFrom(__DIR__.'/config/fadada.php','fadada');
     }
 }

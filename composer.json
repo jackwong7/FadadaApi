@@ -1,6 +1,7 @@
 {
     "name": "jackwong/fadadaapi",
     "description": "Fadada",
+    "version": "1.0.0",
     "authors": [
         {
             "name": "JackWong",
@@ -14,5 +15,6 @@
         "psr-4": {
             "JackWong\\Fadada\\": "src/fadada/"
         }
-    }
+    },
+    "minimum-stability": "stable"
 }
